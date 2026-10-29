@@ -1,0 +1,41 @@
+{
+  "scenario_id": "FDE0-S06",
+  "organisation": "Northstar Relief Lab",
+  "sector": "synthetic remote field support",
+  "fictional_domain": "northstar-relief-lab.invalid",
+  "customer_request": "Plan a short deployment to configure a generated logistics-tracking workflow.",
+  "stated_outcome": "Improve shipment visibility while keeping field workers safe and connected to the home team.",
+  "facts": [
+    "The site is fictional and the exercise involves no travel.",
+    "The scenario includes time-zone pressure, unreliable communications and shared facilities.",
+    "The employer is responsible for safe staffing, travel support and escalation arrangements."
+  ],
+  "visible_tensions": [
+    "A facilitator may ask for continuous availability across two time zones.",
+    "A local contact treats harassment and transport concerns as personal resilience issues."
+  ],
+  "known_boundaries": [
+    "Individual resilience never replaces organisational duty of care.",
+    "The learner must identify practical check-in, backup-contact and stop-work conditions."
+  ],
+  "participants": [
+    {
+      "role": "Deployment sponsor",
+      "authority": "Outcome and budget"
+    },
+    {
+      "role": "Home-team manager",
+      "authority": "Staffing and escalation"
+    },
+    {
+      "role": "Site coordinator",
+      "authority": "Local access and logistics"
+    },
+    {
+      "role": "FDE",
+      "authority": "Bounded delivery and evidence"
+    }
+  ],
+  "data_status": "synthetic_only",
+  "learner_note": "This is the learner-visible baseline. An assessor may add a controlled changed constraint during an observed exercise."
+}

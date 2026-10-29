@@ -1,0 +1,20 @@
+{
+  "engagement_id": "REPLACE_ME",
+  "manifest_version": "1.0",
+  "claims": [
+    {
+      "claim_id": "CLM-001",
+      "statement": "REPLACE_ME",
+      "mode": "Synthetic",
+      "validation_method": "Document-reviewed",
+      "artefacts": [
+        "REPLACE_ME"
+      ],
+      "reviewer_or_verifier": "REPLACE_ME",
+      "captured_utc": "REPLACE_ME",
+      "limitations": [
+        "REPLACE_ME"
+      ]
+    }
+  ]
+}

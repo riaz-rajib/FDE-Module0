@@ -1,0 +1,29 @@
+{
+  "decision_id": "REPLACE_ME",
+  "request": "REPLACE_ME",
+  "purpose_and_affected_people": "REPLACE_ME",
+  "authority": "REPLACE_ME",
+  "applicable_obligations": [
+    "REPLACE_ME"
+  ],
+  "uncertainties": [
+    "REPLACE_ME"
+  ],
+  "possible_harms": [
+    "REPLACE_ME"
+  ],
+  "safer_options": [
+    "REPLACE_ME"
+  ],
+  "specialist_referrals": [
+    "REPLACE_ME"
+  ],
+  "decision": "REPLACE_ME",
+  "stop_or_proceed": "pause_and_escalate",
+  "evidence_mode": "Synthetic",
+  "validation_method": "Document-reviewed",
+  "limitations": [
+    "REPLACE_ME"
+  ],
+  "review_or_expiry": "REPLACE_ME"
+}

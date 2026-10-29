@@ -1,0 +1,41 @@
+{
+  "scenario_id": "FDE0-S05",
+  "organisation": "AlloyWorks Test Cell",
+  "sector": "synthetic industrial operations",
+  "fictional_domain": "alloyworks-test-cell.invalid",
+  "customer_request": "Prepare a disconnected demonstration of a maintenance-work-order flow.",
+  "stated_outcome": "Give technicians a traceable offline workflow without affecting equipment control.",
+  "facts": [
+    "The laboratory is physically separate from operational technology.",
+    "The site safety lead controls access and all equipment-related decisions.",
+    "The demonstration uses generated assets and maintenance events."
+  ],
+  "visible_tensions": [
+    "A site contact suggests connecting briefly to an unlisted switch for convenience.",
+    "The planned session would leave one learner working alone after normal hours."
+  ],
+  "known_boundaries": [
+    "No connection to operational technology or undeclared networks.",
+    "Unsafe lone work, fatigue or missing emergency communication triggers stop-work."
+  ],
+  "participants": [
+    {
+      "role": "Site sponsor",
+      "authority": "Business priority"
+    },
+    {
+      "role": "Site safety lead",
+      "authority": "Physical and operational safety"
+    },
+    {
+      "role": "OT security lead",
+      "authority": "OT connectivity"
+    },
+    {
+      "role": "FDE",
+      "authority": "Isolated lab demonstration"
+    }
+  ],
+  "data_status": "synthetic_only",
+  "learner_note": "This is the learner-visible baseline. An assessor may add a controlled changed constraint during an observed exercise."
+}

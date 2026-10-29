@@ -1,0 +1,41 @@
+{
+  "scenario_id": "FDE0-S01",
+  "organisation": "CivicFlow Services",
+  "sector": "public services",
+  "fictional_domain": "civicflow-services.invalid",
+  "customer_request": "Demonstrate a case-routing workflow to a steering committee in ten working days.",
+  "stated_outcome": "Reduce avoidable hand-offs without weakening decision authority or public-record controls.",
+  "facts": [
+    "The sponsor can approve discovery activity but cannot approve production data access.",
+    "A security representative is available twice each week.",
+    "Only generated case records may be used in the learning environment."
+  ],
+  "visible_tensions": [
+    "The sponsor describes the demonstration as production-ready in one email.",
+    "Operations wants a manual fallback; the product manager wants automation first."
+  ],
+  "known_boundaries": [
+    "No access to council production systems or identities.",
+    "Legal and records-retention conclusions require authorised specialists."
+  ],
+  "participants": [
+    {
+      "role": "Executive sponsor",
+      "authority": "Outcome and discovery budget"
+    },
+    {
+      "role": "Service operations lead",
+      "authority": "Operating workflow acceptance"
+    },
+    {
+      "role": "Security adviser",
+      "authority": "Security control decision"
+    },
+    {
+      "role": "FDE",
+      "authority": "Technical evidence and bounded prototype"
+    }
+  ],
+  "data_status": "synthetic_only",
+  "learner_note": "This is the learner-visible baseline. An assessor may add a controlled changed constraint during an observed exercise."
+}

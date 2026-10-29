@@ -1,0 +1,41 @@
+{
+  "scenario_id": "FDE0-S04",
+  "organisation": "Atlas Assist Lab",
+  "sector": "synthetic AI-assisted support",
+  "fictional_domain": "atlas-assist-lab.invalid",
+  "customer_request": "Evaluate whether a language model can propose support-response drafts from generated tickets.",
+  "stated_outcome": "Reduce drafting time while keeping a trained person accountable for every sent response.",
+  "facts": [
+    "The model endpoint and tickets are synthetic lab fixtures.",
+    "No draft is sent automatically.",
+    "The customer product owner may approve an experiment, not consequential production use."
+  ],
+  "visible_tensions": [
+    "A manager asks to paste real ticket examples into a public assistant for realism.",
+    "The sponsor wants the phrase 'accurate and safe' before an evaluation exists."
+  ],
+  "known_boundaries": [
+    "No real ticket, personal information or confidential prompt may leave the authorised lab.",
+    "Model quality, fairness, safety and generalisation remain unproved until evaluated."
+  ],
+  "participants": [
+    {
+      "role": "Support product owner",
+      "authority": "Experiment priority"
+    },
+    {
+      "role": "Responsible-AI reviewer",
+      "authority": "AI risk decision"
+    },
+    {
+      "role": "Support operator",
+      "authority": "Human response decision"
+    },
+    {
+      "role": "FDE",
+      "authority": "Evaluation and integration evidence"
+    }
+  ],
+  "data_status": "synthetic_only",
+  "learner_note": "This is the learner-visible baseline. An assessor may add a controlled changed constraint during an observed exercise."
+}

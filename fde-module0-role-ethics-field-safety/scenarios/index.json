@@ -1,0 +1,35 @@
+{
+  "version": "1.0.0",
+  "scenarios": [
+    {
+      "scenario_id": "FDE0-S01",
+      "title": "CivicFlow Services - public services",
+      "file": "fde0-s01.json"
+    },
+    {
+      "scenario_id": "FDE0-S02",
+      "title": "Harbour Referral Lab - synthetic healthcare",
+      "file": "fde0-s02.json"
+    },
+    {
+      "scenario_id": "FDE0-S03",
+      "title": "Meridian Treasury Works - synthetic financial operations",
+      "file": "fde0-s03.json"
+    },
+    {
+      "scenario_id": "FDE0-S04",
+      "title": "Atlas Assist Lab - synthetic AI-assisted support",
+      "file": "fde0-s04.json"
+    },
+    {
+      "scenario_id": "FDE0-S05",
+      "title": "AlloyWorks Test Cell - synthetic industrial operations",
+      "file": "fde0-s05.json"
+    },
+    {
+      "scenario_id": "FDE0-S06",
+      "title": "Northstar Relief Lab - synthetic remote field support",
+      "file": "fde0-s06.json"
+    }
+  ]
+}
