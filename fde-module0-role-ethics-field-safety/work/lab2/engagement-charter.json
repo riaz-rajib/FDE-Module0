@@ -1,8 +1,8 @@
 {
   "engagement_id": "ENG-002",
-  "purpose": "REPLACE_ME",
+  "purpose": "Map and prototype referral-status tracking workflow",
   "intended_outcomes": [
-    "REPLACE_ME"
+    "Reduce avoidable hand-offs without weakening decision authority or public-record controls."
   ],
   "non_goals": [
     "REPLACE_ME"

@@ -1,2 +1,3 @@
 asset_id,synthetic,classification,subjects,purpose,source,destinations,retention,deletion_owner,access_roles,jurisdiction,specialist_referral,notes
-DATA-001,true,REPLACE_ME,synthetic personas,REPLACE_ME,generated fixture,local synthetic lab,REPLACE_ME,REPLACE_ME,REPLACE_ME,REPLACE_ME,REPLACE_ME,No customer data
+DATA-001,true,Own,synthetic personas,Map and prototype referral-status tracking workflow,generated fixture,local synthetic lab,Duration of Lab 1 execution phase,FDE,FDE, Clinical Sponsor and Clinical Safety Officer and Privacy Adviser,Bounded Local Workspace Sandbox,Route to Privacy Adviser for future data use policy,No customer data
+
