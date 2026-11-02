@@ -1,0 +1,34 @@
+{
+  "engagement_id": "REPLACE_ME",
+  "purpose": "REPLACE_ME",
+  "intended_outcomes": [
+    "REPLACE_ME"
+  ],
+  "non_goals": [
+    "REPLACE_ME"
+  ],
+  "authorised_environments": [
+    "Local synthetic lab"
+  ],
+  "data_boundary": "Generated records only; no customer or personal information.",
+  "decision_rights": [
+    {
+      "decision": "REPLACE_ME",
+      "owner": "REPLACE_ME"
+    }
+  ],
+  "stop_work_conditions": [
+    "Missing authority",
+    "Undeclared data or system",
+    "Unsafe field condition",
+    "Evidence-integrity concern"
+  ],
+  "escalation_paths": [
+    {
+      "topic": "REPLACE_ME",
+      "role": "REPLACE_ME"
+    }
+  ],
+  "review_date_utc": "REPLACE_ME",
+  "status": "draft"
+}

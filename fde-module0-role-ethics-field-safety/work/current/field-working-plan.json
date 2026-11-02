@@ -1,0 +1,27 @@
+{
+  "plan_id": "REPLACE_ME",
+  "site_contact": "site.contact@organisation.invalid",
+  "home_team_contact": "duty.manager@fieldbridge.invalid",
+  "working_hours": "REPLACE_ME",
+  "on_call_boundary": "REPLACE_ME",
+  "maximum_consecutive_hours": 10,
+  "check_in_cadence": "REPLACE_ME",
+  "lone_worker_controls": [
+    "REPLACE_ME"
+  ],
+  "travel_and_site_logistics": [
+    "REPLACE_ME"
+  ],
+  "emergency_contacts": [
+    "REPLACE_ME"
+  ],
+  "harassment_and_wellbeing_escalation": [
+    "REPLACE_ME"
+  ],
+  "stop_work_conditions": [
+    "REPLACE_ME"
+  ],
+  "decompression_and_return_brief": "REPLACE_ME",
+  "employer_duty_acknowledgement": true,
+  "approval": "REPLACE_ME"
+}

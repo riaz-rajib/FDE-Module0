@@ -1,0 +1,41 @@
+{
+  "scenario_id": "FDE0-S02",
+  "organisation": "Harbour Referral Lab",
+  "sector": "synthetic healthcare",
+  "fictional_domain": "harbour-referral-lab.invalid",
+  "customer_request": "Map and prototype a referral-status workflow using generated records.",
+  "stated_outcome": "Make delayed referrals visible to authorised operators while preserving clinical decision boundaries.",
+  "facts": [
+    "All names, identifiers and clinical events are generated.",
+    "The clinical safety officer is the decision authority for patient-safety controls.",
+    "The privacy adviser must decide whether a proposed future data use is permitted."
+  ],
+  "visible_tensions": [
+    "A facilitator may describe a spreadsheet as de-identified without supporting evidence.",
+    "The sponsor wants the FDE to approve the future retention period."
+  ],
+  "known_boundaries": [
+    "Do not open or import any undeclared data file.",
+    "Do not make clinical, privacy or legal determinations."
+  ],
+  "participants": [
+    {
+      "role": "Clinical sponsor",
+      "authority": "Workflow priority"
+    },
+    {
+      "role": "Clinical safety officer",
+      "authority": "Clinical safety decision"
+    },
+    {
+      "role": "Privacy adviser",
+      "authority": "Privacy interpretation"
+    },
+    {
+      "role": "FDE",
+      "authority": "Synthetic technical experiment"
+    }
+  ],
+  "data_status": "synthetic_only",
+  "learner_note": "This is the learner-visible baseline. An assessor may add a controlled changed constraint during an observed exercise."
+}

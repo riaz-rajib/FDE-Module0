@@ -1,0 +1,2 @@
+asset_id,synthetic,classification,subjects,purpose,source,destinations,retention,deletion_owner,access_roles,jurisdiction,specialist_referral,notes
+DATA-001,true,REPLACE_ME,synthetic personas,REPLACE_ME,generated fixture,local synthetic lab,REPLACE_ME,REPLACE_ME,REPLACE_ME,REPLACE_ME,REPLACE_ME,No customer data
