@@ -1,11 +1,11 @@
 {
-  "engagement_id": "REPLACE_ME",
-  "purpose": "REPLACE_ME",
+  "engagement_id": "ENG-001",
+  "purpose": "Demonstrate a case-routing workflow to a steering committee",
   "intended_outcomes": [
-    "REPLACE_ME"
+    "Reduce avoidable hand-offs without weakening decision authority or public-record controls."
   ],
   "non_goals": [
-    "REPLACE_ME"
+    "Approving production network access or security control policies independently"
   ],
   "authorised_environments": [
     "Local synthetic lab"
@@ -13,8 +13,20 @@
   "data_boundary": "Generated records only; no customer or personal information.",
   "decision_rights": [
     {
-      "decision": "REPLACE_ME",
-      "owner": "REPLACE_ME"
+      "decision": "Outcome prioritization and discovery budget approval",
+      "owner": "Executive sponsor"
+    },
+    {
+      "decision": "Operating workflow acceptance and fallback validation",
+      "owner": "Service operations lead"
+    },
+    {
+      "decision": "Security policy exceptions and formal control decisions",
+      "owner": "Security adviser"
+    },
+    {
+      "decision": "Technical evidence generation and bounded prototype execution",
+      "owner": "FDE"
     }
   ],
   "stop_work_conditions": [
@@ -25,10 +37,18 @@
   ],
   "escalation_paths": [
     {
-      "topic": "REPLACE_ME",
-      "role": "REPLACE_ME"
+      "topic": "Sponsor pressure to deliver production data access or live environments",
+      "role": "Security adviser"
+    },
+    {
+      "topic": "Conflicting requirements between Operations fallback demands and automation-first logic",
+      "role": "Executive sponsor"
+    },
+    {
+      "topic": "Unclear legal compliance boundaries regarding public-record controls",
+      "role": "Service operations lead"
     }
   ],
-  "review_date_utc": "REPLACE_ME",
+  "review_date_utc": "2026-11-02",
   "status": "draft"
 }

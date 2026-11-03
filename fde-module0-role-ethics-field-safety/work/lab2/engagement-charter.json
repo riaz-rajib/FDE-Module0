@@ -2,10 +2,11 @@
   "engagement_id": "ENG-002",
   "purpose": "Map and prototype referral-status tracking workflow",
   "intended_outcomes": [
-    "Reduce avoidable hand-offs without weakening decision authority or public-record controls."
+    "Make delayed referrals visible to authorised operators while preserving clinical decision boundaries."
   ],
   "non_goals": [
-    "REPLACE_ME"
+    "Making clinical, privacy, or legal determinations",
+    "Ingesting or cleaning unverified external spreadsheets or data assets"
   ],
   "authorised_environments": [
     "Local synthetic lab"
@@ -13,8 +14,20 @@
   "data_boundary": "Generated records only; no customer or personal information.",
   "decision_rights": [
     {
-      "decision": "REPLACE_ME",
-      "owner": "REPLACE_ME"
+      "decision": "Clinical safety controls and patient-safety thresholds",
+      "owner": "Clinical safety officer"
+    },
+    {
+      "decision": "Permitted future data utilization interpretations",
+      "owner": "Privacy adviser"
+    },
+    {
+      "decision": "Workflow priority",
+      "owner": "Clinical sponsor"
+    },
+    {
+      "decision": "Synthetic technical prototyping and metric generation",
+      "owner": "FDE"
     }
   ],
   "stop_work_conditions": [
@@ -25,10 +38,14 @@
   ],
   "escalation_paths": [
     {
-      "topic": "REPLACE_ME",
-      "role": "REPLACE_ME"
+      "topic": "Unverified facilitator datasets or file ingestion requests",
+      "role": "Privacy adviser"
+    },
+    {
+      "topic": "Sponsor demands for engineering policy approval or clinical flow priority disputes",
+      "role": "Clinical safety officer"
     }
   ],
-  "review_date_utc": "REPLACE_ME",
+  "review_date_utc": "2026-11-02",
   "status": "draft"
 }
