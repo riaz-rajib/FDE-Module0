@@ -1,0 +1,9 @@
+Stakeholder,Responsibility,
+"Product lead","Wants a smoother demonstration"
+"Operations owner","Owns exception-review queue"
+"Risk owner","Owns fraud-control policy"
+"Compliance adviser","Provides compliance interpretation"
+"Engineering owner","Owns the queue service"
+"FDE","Tests and contributes technical evidence"
+"Affected queue users","Use or experience the queue workflow"
+"Authorised system/data owner","Would need to authorise any live-data access"

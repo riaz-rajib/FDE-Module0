@@ -1,0 +1,8 @@
+field,answer
+"Conflict","Product lead requests removal of the second approval; Risk owns fraud-control policy"
+"Decision authority","Risk owner"
+"FDE role","Contribute technical test evidence; do not waive or remove the control"
+"Evidence","Scenario facts establish Risk's ownership and the FDE's limited authority"
+"Safe interim position","Keep maker-checker approval enabled"
+"Escalation","Refer the proposal to the Risk owner immediately"
+"Consequence of delay","The proposed control change cannot proceed; the affected demonstration behaviour remains unchanged"

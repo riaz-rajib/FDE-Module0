@@ -87,6 +87,7 @@ Can grant permission to replicate data for sandbox.
 ## Scenario Decision Sheet: FDE0-S02 (Harbour Referral Lab)
 
 ### 1. Scenario Baseline Summary
+
 **Stated Outcome:** Reduce avoidable hand-offs without weakening decision authority or public-record controls.
 
 **Affected People:** 
@@ -135,6 +136,82 @@ A synthetic-only environment mapping and prototyping workflows using strictly ge
  
 
 **Authorizing Authority:** This change cannot be authorized by the Clinical Sponsor. It requires explicit, written sign-off from the **Privacy Adviser** (who governs privacy compliance) and the **Clinical Safety Officer** (to ensure data lifecycle changes do not impact patient safety).
+
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+**************************************************************************************************************************************
+
+## Scenario Decision Sheet: FDE0-S03 (Meridian Treasury Works)
+
+### 1. Scenario Baseline Summary
+
+**Stated Outcome:** Reduce investigation time while preserving maker-checker approval and auditability.
+
+**Affected People:** 
+  Operations owner
+  Risk owner
+  Compliance adviser
+  FDE
+
+**Authorized Environment:** 
+An internal demonstration environment using a synthetic learning dataset with no real account-holder information.
+
+
+**Hard Boundary**
+  Do not access, mirror, or connect to live production transactions.
+  Do not waive, bypass, or alter the core maker-checker control behavior.
+  Do not make compliance, regulatory, or legal interpretations.
+
+
+
+### 2. Request Classification Matrix
+
+ **Request 1: Change a synthetic validation rule within the local repository to test queue performance.**
+
+   **Classification:** **Own**
+   **Supporting Evidence: The participant profile explicitly assigns the FDE authority over the "Technical implementation evidence". The data status is "synthetic_only" and the repository is local, allowing the FDE to execute technical changes autonomously within the authorized demo sandbox
+
+**Request 2: Disable the second approval mechanism to make the upcoming user experience demonstration run smoother.**
+  **Classification:** **Stop**
+  **Supporting Evidence:** Known boundaries state explicitly: "The FDE may test control behaviour but may not waive it." The product lead's proposal directly violates this baseline. The FDE must halt the configuration bypass and maintain the dual-authorization structure.
+
+**Request 3: Review a sample file provided mid-demonstration by a sponsor to verify if it is safely anonymized for a live import test.**
+
+  **Classification:** **Stop**
+  **Supporting Evidence:** Known boundaries state that live transaction access is not authorized and compliance conclusions require the authorized compliance function. The worked micro-example establishes that evaluating data source de-identification methods falls outside FDE charter authority.
+
+**Request 4: Verify and confirm to an auditor whether the redesigned exception-review interface fully complies with regional banking fraud regulations.**
+
+  **Classification:** **Route**
+  **Supporting Evidence:** Known boundaries state: "Compliance conclusions require the authorised compliance function." The participant profile grants the Compliance Adviser exclusive "Compliance interpretation" authority. The FDE must hand off this determination.
+
+
+### 3. Strategic Charter Nuance
+
+**Plausible Change in Classification:** 
+
+  The "Stop" classification on evaluating external data inputs (Request 3) could shift to "Contribute." This would happen if the engagement charter was formally amended to evaluate data ingestion pipeline resilience, shifting the FDE's task toward providing technical processing evidence on pre-cleared, mock data structures rather than independently judging data safety.
+Authorizing Authority: 
+If you want to continue preparing for your assessment, let me know if I should:
+• Generate a Peer Observation Record template tailored for this specific scenario
+• Draft the two stakeholder response scripts based exactly on these matrix boundaries
+• Create a follow-up scenario variation with a controlled changed constraint to test your adaptability
+ 
+
+**Authorizing Authority:** This modification cannot be granted by the product lead or the operational sponsor. It requires a revised, written charter sign-off executed jointly by the Risk Owner (who owns fraud-control and data policy) and the Compliance Adviser (who owns legal and regulatory interpretation).
+If you want to continue preparing for your assessment, let me know if I should:
+• Generate a Peer Observation Record template tailored for this specific scenario
+• Draft the two stakeholder response scripts based exactly on these matrix boundaries
+• Create a follow-up scenario variation with a controlled changed constraint to test your adaptability
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+
 
 
 

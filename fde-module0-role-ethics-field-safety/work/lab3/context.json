@@ -1,0 +1,41 @@
+{
+  "scenario_id": "FDE0-S03",
+  "organisation": "Meridian Treasury Works",
+  "sector": "synthetic financial operations",
+  "fictional_domain": "meridian-treasury-works.invalid",
+  "customer_request": "Explore an exception-review queue for generated payment events.",
+  "stated_outcome": "Reduce investigation time while preserving maker-checker approval and auditability.",
+  "facts": [
+    "The learning dataset is generated and contains no account-holder information.",
+    "Risk owns fraud-control policy; operations owns the queue; engineering owns the service.",
+    "An internal demonstration is authorised, but live transaction access is not."
+  ],
+  "visible_tensions": [
+    "The product lead proposes removing a second approval to make the demonstration smoother.",
+    "A stakeholder asks for a claim about regulatory compliance."
+  ],
+  "known_boundaries": [
+    "The FDE may test control behaviour but may not waive it.",
+    "Compliance conclusions require the authorised compliance function."
+  ],
+  "participants": [
+    {
+      "role": "Operations owner",
+      "authority": "Workflow acceptance"
+    },
+    {
+      "role": "Risk owner",
+      "authority": "Fraud-control policy"
+    },
+    {
+      "role": "Compliance adviser",
+      "authority": "Compliance interpretation"
+    },
+    {
+      "role": "FDE",
+      "authority": "Technical implementation evidence"
+    }
+  ],
+  "data_status": "synthetic_only",
+  "learner_note": "This is the learner-visible baseline. An assessor may add a controlled changed constraint during an observed exercise."
+}

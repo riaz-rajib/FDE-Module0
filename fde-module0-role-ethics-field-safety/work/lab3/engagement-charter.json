@@ -1,0 +1,56 @@
+{
+  "engagement_id": "ENG-003",
+  "purpose": "Explore an exception-review queue for generated payment events.",
+  "intended_outcomes": [
+    "Reduce investigation time while preserving maker-checker approval and auditability."
+  ],
+  "non_goals": [
+    "Accessing, mirroring, or connecting to live production transactions",
+    "Waiving, bypassing, or altering core maker-checker control behavior",
+    "Making compliance, regulatory, or legal interpretations"
+  ],
+  "authorised_environments": [
+    "Local synthetic lab"
+  ],
+  "data_boundary": "Generated records only; no customer or personal information.",
+  "decision_rights": [
+    {
+      "decision": "Workflow acceptance",
+      "owner": "Operations owner"
+    },
+    {
+      "decision": "Fraud-control policy",
+      "owner": "Risk owner"
+    },
+    {
+      "decision": "Compliance interpretation",
+      "owner": "Compliance adviser"
+    },
+    {
+      "decision": "Technical implementation evidence",
+      "owner": "FDE"
+    }
+  ],
+  "stop_work_conditions": [
+    "Missing authority",
+    "Undeclared data or system",
+    "Unsafe field condition",
+    "Evidence-integrity concern"
+  ],
+  "escalation_paths": [
+    {
+      "topic": "Compliance conclusions and regulatory compliance claims",
+      "role": "Compliance adviser"
+    },
+    {
+      "topic": "Bypassing maker-checker controls or changing fraud policy constraints",
+      "role": "Risk owner"
+    },
+    {
+      "topic": "Operational queue changes and workflow acceptance modifications",
+      "role": "Operations owner"
+    }
+  ],
+  "review_date_utc": "2026-11-04",
+  "status": "draft"
+}

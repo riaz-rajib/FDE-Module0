@@ -1,0 +1,2 @@
+asset_id,synthetic,classification,subjects,purpose,source,destinations,retention,deletion_owner,access_roles,jurisdiction,specialist_referral,notes
+DATA-001,true,Own,synthetic personas,Explore an exception-review queue for generated payment events,generated fixture,local synthetic lab,Duration of Lab 3 execution phase,FDE,[Operations owner,Risk Owner,Compliance adviser,FDE],meridian-treasury-works.invalid,"[Risk owner, Compliance adviser]",No customer data

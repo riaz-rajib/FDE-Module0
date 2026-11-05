@@ -1,0 +1,5 @@
+Can queue users understand why a payment event was placed in the exception-review queue?
+Can users distinguish pending approval from completed approval?
+Can users operate the queue with the accessibility support they require?
+Are users able to identify who is responsible for resolving an exception?
+Are support staff represented in the workflow review?
